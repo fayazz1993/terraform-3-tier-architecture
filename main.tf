@@ -336,7 +336,7 @@ resource "aws_lb_listener" "external-elb" {
   multi_az               = true
   db_name                = "mydb"
   username               = "fayaz"
-  password               = "fayaz"
+  password               = "fayaz@123098new&old"
   skip_final_snapshot    = true
   vpc_security_group_ids = [aws_security_group.database-sg.id]
 }*/
